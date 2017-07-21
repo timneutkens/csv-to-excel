@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="dropzone.css">    
+        <link rel="stylesheet" href="main.css">    
+        <script src="dropzone.js"></script>
+        <script src="file-saver.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Comma separated CSV to Excel readable CSV</h1>
+        <form action="https://csv2excel.now.sh" method="POST" enctype="multipart/form-data" id="file-dropzone" class="dropzone">
+            <div class="fallback">
+                <input name="file" type="file" />
+            </div>
+        </form>
+    </body>
+</html>
